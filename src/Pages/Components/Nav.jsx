@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div>
-      <nav className=' text-pink-200 bg-gradient-to-r from-pink-900 via-pink-600 to-pink-900 py-8 px-5 flex justify-between sticky z-50'>
+      <nav className=' text-pink-200 bg-gradient-to-r from-pink-900 via-pink-500 to-pink-900 py-8 px-5 flex justify-between sticky z-50'>
               <div className='mx-5 flex'>
               <div className='mt-1.5'>
                 <BsFillMoonStarsFill />

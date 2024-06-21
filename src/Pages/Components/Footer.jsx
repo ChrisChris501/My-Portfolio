@@ -19,11 +19,11 @@ const Footer = () => {
           </div>
           <div className='text-center text-lg text-gray-600 sm:text-left'>
             <p>&copy; {new Date().getFullYear()} Christianah Agbekeye. All rights reserved.</p>
-            <p>Designed and built by Christianah Agbekeye.</p>
+            <p>Designed and built by ChrisChris</p>
           </div>
           <div className='text-sm text-center text-gray-600 sm:text-right'>
             <p>
-              For inquiries, contact: <a href='mailto:christanahagbekeye@gmail.com' className='underline hover:text-blue-500 transition duration-300'>christanahagbekeye@gmail.com</a>
+              For inquiries, contact: <a href='mailto:christanahagbekeye@gmail.com' className='underline hover:text-pink-700 transition duration-300'>christanahagbekeye@gmail.com</a>
             </p>
           </div>
         </div>

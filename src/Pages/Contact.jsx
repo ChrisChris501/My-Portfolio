@@ -6,11 +6,11 @@ import { MdEmail } from 'react-icons/md'
 const Contact = () => {
   return (
     <div className='text-center p-10 h-screen'>
-      <h1 className='text-4xl font-bold text-gray-900 mb-4'>Contact Me</h1>
+      <h1 className='text-3xl font-bold text-gray-700 mb-4'><span className='text-4xl'>C</span>ontact <span className='text-4xl'>M</span>e</h1>
       <ul className='p-5 text-xl font-light space-y-8'>
         <li className='flex items-center justify-center space-x-4'>
           <MdEmail className='text-2xl' />
-          <span>Email Address: <a href='mailto:Christanahagbekeye@gmail.com' className='text-pink-500'>Christanahagbekeye@gmail.com</a></span>
+          <span className='ml-2 md:ml-0'>Email Address: <a href='mailto:Christanahagbekeye@gmail.com' className='text-pink-700'>Christanahagbekeye@gmail.com</a></span>
         </li>
         <li className='flex items-center justify-center space-x-4'>
           <BsWhatsapp className='text-2xl' />

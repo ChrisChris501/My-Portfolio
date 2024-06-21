@@ -4,7 +4,7 @@ const Cards = ({ Title, Description, Site, GithubLink }) => {
   return (
     <div className='project-card p-6 border-2 rounded-lg border-x-red-800 shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full'>
       <div className='flex-grow'>
-        <h2 className='text-2xl font-semibold text-gray-800 mb-2'>{Title}</h2>
+        <h2 className='text-xl font-medium text-gray-700 mb-2'>{Title}</h2>
         <p className='text-gray-600 mb-4 text-justify'>{Description}</p>
       </div>
       <div className='mt-auto'>
@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <div className='container mx-auto p-6'>
       <div className='text-center mb-10'>
-        <h1 className='text-4xl font-bold text-gray-900 mb-4'>Projects</h1>
+        <h1 className='text-3xl font-bold text-gray-700 mb-4'><span className='text-4xl'>P</span>rojects</h1>
         <p className='text-lg text-gray-700 text-justify'>Here, you will find the lists of projects I have worked on as the main developer. There are also projects I contributed to, especially during my fellowship program with Tech4dev, but they are not included in this list.</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
