@@ -16,7 +16,7 @@ const Home = () => {
               </div>
               <ul className='flex space-x-4 font-thin'>
                 <Link key="Home" to="/">Services</Link>
-                <Link key="Home" to="/">Projects</Link>
+                <Link key="Home" to="/Projects">Projects</Link>
                 <Link key="Home" to="/">Resume</Link>
                 <Link key="Home" to="/">Contact</Link>
               </ul>
