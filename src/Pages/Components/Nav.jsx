@@ -12,7 +12,7 @@ const Nav = () => {
               </div>
               <h1 className='text-xl font-bold'>ChrisChris</h1>
               </div>
-              <ul className='flex space-x-4 font-thin'>
+              <ul className='flex space-x-4 sm:space-x-2 font-medium'>
                 <Link key="Home" to="/">Home</Link>
                 <Link key="Home" to="/Projects">Projects</Link>
                 <Link key="Home" to="/Resume">Resume</Link>
