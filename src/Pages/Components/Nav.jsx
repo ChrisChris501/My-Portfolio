@@ -1,26 +1,24 @@
-import React from 'react'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div>
-      <nav className=' text-pink-200 bg-gradient-to-r from-pink-900 via-pink-500 to-pink-900 py-8 px-5 flex justify-between sticky z-50'>
-              <div className='mx-5 flex'>
-              <div className='mt-1.5'>
-                <BsFillMoonStarsFill />
-              </div>
-              <h1 className='text-xl font-bold'>ChrisChris</h1>
-              </div>
-              <ul className='flex space-x-4 sm:space-x-2 font-medium'>
-                <Link key="Home" to="/">Home</Link>
-                <Link key="Home" to="/Projects">Projects</Link>
-                <Link key="Home" to="/Resume">Resume</Link>
-                <Link key="Home" to="/Contact">Contact</Link>
-              </ul>
-            </nav>
-    </div>
-  )
-}
+    <nav className='bg-gradient-to-r from-pink-900 via-pink-500 to-pink-900 py-4 px-3 sm:px-5 flex justify-between items-center sticky top-0 z-50'>
+      <div className='flex items-center'>
+        <div className='text-2xl text-pink-200'>
+          <BsFillMoonStarsFill />
+        </div>
+        <h1 className='text-xl font-bold text-pink-200 ml-2'>ChrisChris</h1>
+      </div>
+      <ul className='flex space-x-4 sm:space-x-6 text-pink-200'>
+        <li><Link to="/" className='font-medium'>Home</Link></li>
+        <li><Link to="/Projects" className='font-medium'>Projects</Link></li>
+        <li><Link to="/Resume" className='font-medium'>Resume</Link></li>
+        <li><Link to="/Contact" className='font-medium'>Contact</Link></li>
+      </ul>
+    </nav>
+  );
+};
 
-export default Nav
+export default Nav;
