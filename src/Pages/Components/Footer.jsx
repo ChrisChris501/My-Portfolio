@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/a
 const Footer = () => {
   return (
     <div className='bg-pink-100 h-max'>
-      <footer className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20'>
+      <footer className='max-w-7xl mx-auto px-4 md:py-7 sm:px-6 lg:px-8 py-10'>
         <div className='flex flex-col items-center sm:flex-row sm:justify-between gap-5'>
           <div className='flex justify-center gap-10 text-3xl text-gray-800'>
             <a href='https://x.com/Christy_hann?s=09' target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 transition duration-300'>
