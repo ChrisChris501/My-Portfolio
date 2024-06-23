@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cards = ({ Title, Description, Site, GithubLink }) => {
   return (
-    <div className='project-card p-6 border-2 rounded-lg border-x-pink-800 shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full'>
+    <div className='project-card p-6 border-2 rounded-lg border-x-red-800 shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full mb-40'>
       <div className='flex-grow'>
         <h2 className='text-xl font-medium text-gray-700 mb-4'>{Title}</h2>
         <p className='text-gray-600 mb-6 text-justify'>{Description}</p>

@@ -3,7 +3,7 @@ import Avatar from '../assets/Avatar.png';
 
 const Home = () => {
   return (
-    <div className='h-full'>
+    <div className='h-full mb-20'>
       <div className='text-center p-10'>
         <div className='font-bold leading-9 text-2xl tracking-wide uppercase'>
           <h1 className='text-pink-800'><span className='text-4xl text-pink-700'>C</span>hristianah <span className='text-4xl text-pink-700'>A</span>gbekeye</h1>

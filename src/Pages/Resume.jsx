@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiOutlineArrowRight } from 'react-icons/ai';
 
 const Resume = () => {
   return (
-    <div className='container mx-auto px-6 lg:px-20 py-10 min-h-screen flex flex-col justify-between'>
+    <div className=' mx-auto px-6 lg:px-20 py-10 min-h-screen flex flex-col justify-between'>
       <div className='mb-10'>
         <h2 className='text-3xl text-center font-medium text-gray-700 mb-6'>
           <span className='text-4xl'>R</span>esume
