@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Cards = ({ Title, Description, Site, GithubLink }) => {
   return (
@@ -16,6 +17,13 @@ const Cards = ({ Title, Description, Site, GithubLink }) => {
     </div>
   );
 }
+
+Cards.propTypes = {
+  Title: PropTypes.string.isRequired,
+  Description: PropTypes.string.isRequired,
+  Site: PropTypes.string.isRequired,
+  GithubLink: PropTypes.string.isRequired,
+};
 
 const Projects = () => {
   return (
